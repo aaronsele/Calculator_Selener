@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Básica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <h1>Calculadora</h1>
+    <input type="number" id="numIngresado1" placeholder="Número 1">
+    <input type="text" id="operation" placeholder="Operación (+, -, *, /)">
+    <input type="number" id="numIngresado2" placeholder="Número 2">
+    <button onclick="calcular()">Calcular</button>
+    <div class="error" id="mensajeError"></div>
+    <div class="result" id="result"></div>
+  </div>
+  <script src="site.js"></script>
+</body>
+</html>
